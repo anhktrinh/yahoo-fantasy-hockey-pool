@@ -9,6 +9,6 @@ We construct a NN regression model to optimize hockey yahoo fantasy points. To d
 3. minimal_model_analysis.ipynb : analysis of the minimal model
 4. adv_model_analysis.ipynb : analysis of the advanced model
 5. all_data_*_v* : training and test data (years 2008 to 2020). Used in analysis notebooks
-6. all_data_*_test : target data for predicting 2022 outcomes. Used in analysis notebooks
+6. all_data_*_test : stats from the 2021 season used to predict 2022 outcomes. Used in analysis notebooks
 
 Files used for data_processing and the scraper are not available at the moment. 
