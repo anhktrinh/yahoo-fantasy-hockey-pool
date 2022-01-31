@@ -18,10 +18,10 @@ Files used for data_processing and the scraper are not available at the moment.
 # Motivation
 Advanced stats are frequently used to assess a player's performance. As an non-expert, it is unclear to me how predictive weight such metrics carry in regard to fantasy pools. To be concrete, we consider Yahoo Fanasy and apply the Express Settings: https://hockey.fantasysports.yahoo.com/hockey/express_settings?type=point.
 
-# Goal
+# Goals
 1. Determine the impact of advanced stats to PPG production.
 2. Determine the impact of advanced stats to Yahoo FPPG production. 
 
-# Hypothesis
+# Hypotheses
 1. Based on Gobeil's model, PPG appears to be well-modelled by a linear model with stats from two previous sesons. We therefore expect advanced stats to merely finely tune the results yielding small improvements at best, or worst behaviour depending on the dataset size.
-2. Yahoo FPPG depends on other stats namely +/-, PIM, PPP, and SG. Such stats could be influenced by some advanced stats such as "Shots Through %", Power Play advanced analytics, and normalized +/-. It is therefore conceivable that we observe larger departures from the PPG regression task.
+2. Yahoo FPPG depends on other stats namely +/-, PIM, PPP, and SG. Such stats could be influenced by some advanced stats such as "Shots Through %", Power Play advanced analytics, and normalized +/-. It is therefore conceivable that we observe larger departures from the PPG regression task. We expect the model to discover the weighting from the Express Settings page if no correlations are found for advanced stats.
