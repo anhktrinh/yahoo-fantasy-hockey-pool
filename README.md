@@ -6,7 +6,7 @@ We construct a NN regression model to optimize hockey yahoo fantasy points. To d
 Each analysis notebook examines predictions with respect to points per game (PPG) and fantasy points per game (FPPG). Like Gobeil's article, we neglect goaltenders since their stats are completely different.
 
 # Files
-1. hockey-reference_scraper.ipynb : https://www.hockey-reference.com scrape
+1. hockey-reference_scraper.ipynb : https://www.hockey-reference.com scraper
 2. data_processing.ipynb : notebook used to clean, process and prepare data for analysis with respect to both models described above.
 3. minimal_model_analysis.ipynb : analysis of the minimal model
 4. adv_model_analysis.ipynb : analysis of the advanced model
