@@ -1,6 +1,6 @@
 # yahoo-fantasy-hockey-pool
 We construct a NN regression model to optimize hockey yahoo fantasy points. To do so, we consider two models:
-* A minimal model based on https://pub.towardsai.net/how-to-win-your-nhl-pool-without-even-trying-42bc03b9659; we neglect height/weight, and we identify player positions as a binary statement: Defensemen (0) or Forward (1)
+* A minimal model based on https://pub.towardsai.net/how-to-win-your-nhl-pool-without-even-trying-42bc03b9659; we neglect height/weight, add relevant Yahoo Fantasy stats (see Hypothesis section), and we identify player positions as a binary statement: Defensemen (0) or Forward (1)
 * An advanced model which includes advanced stats
 
 Each analysis notebook examines predictions with respect to points per game (PPG) and fantasy points per game (FPPG). Like Gobeil's article, we neglect goaltenders since their stats are completely different.
